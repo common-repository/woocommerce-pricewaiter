@@ -1,0 +1,28 @@
+.wc_pricewaiter_setup_wrap .wc_pricewaiter_setup_step {
+	display: none;
+}
+
+.wc_pricewaiter_setup_wrap .wc_pricewaiter_setup_step:first-child {
+	display: block;
+}
+
+.wc_pricewaiter_setup_defaults {
+	display: none;
+}
+
+.wc_pricewaiter_setup_defaults ~ .submit {
+	display: none;
+}
+
+@media (min-width: 767px) {
+	.wc_pricewaiter_setup_block_unique,
+	.wc_pricewaiter_setup_block_current {
+		width: 48%;
+	}
+	.wc_pricewaiter_setup_block_unique {
+		float: left;
+	}
+	.wc_pricewaiter_setup_block_current {
+		float: right;
+	}
+}
